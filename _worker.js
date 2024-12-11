@@ -1,11 +1,11 @@
 // _worker.js
 
 // Docker镜像仓库主机地址
-let hub_host = 'registry.hub.docker.com';
+let hub_host = 'registry-1.docker.io'
 // Docker认证服务器地址
-const auth_url = 'registry.hub.docker.com';
+const auth_url = 'https://auth.docker.io'
 // 自定义的工作服务器地址
-let workers_url = 'https://xxx/';
+let workers_url = 'https://docker.aklibk.com/';
 
 let 屏蔽爬虫UA = ['netcraft'];
 

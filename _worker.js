@@ -3,7 +3,7 @@
 // Docker镜像仓库主机地址
 let hub_host = 'registry.hub.docker.com';
 // Docker认证服务器地址
-const auth_url = 'index.docker.io';
+const auth_url = 'registry.hub.docker.com';
 // 自定义的工作服务器地址
 let workers_url = 'https://xxx/';
 
